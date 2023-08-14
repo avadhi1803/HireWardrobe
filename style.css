@@ -1,0 +1,111 @@
+
+        .tdtheme
+        {
+            background-color: rgba(0,0,0,0.9);
+            color: white;
+            width: 20px;
+            height: 60px;
+            font-size: 20px; 
+            text-transform: uppercase;
+        }
+        .tdtheme:hover
+        {
+            background-color: green;
+        }
+        .current
+        {
+            background-color: green;
+            color: white;
+            width: 20px;
+            height: 60px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        a
+        {
+            text-decoration: none;
+            color: darkblue;
+        }
+        body
+        {
+            margin: 0;
+            background-image: url("bluebg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+       
+  
+          .head
+          {
+              position: relative;
+              display: flex;
+              justify-content: space-evenly;
+          }
+          .head h1
+          {
+              position: absolute;
+             top: 40px;
+              color: pink;
+              text-transform: uppercase;
+              text-shadow: 0 2px white, 0 3px #777;
+              font-size: 45px;
+              line-height: 42px;
+              
+          }
+          .head img
+          {
+              position: absolute;
+              left: 35px;
+              width: 150px;
+              height: 130px;
+              top: 30px;
+          }
+          .content
+          {
+              position: relative;
+              top: 230px;
+              width: 100%;
+          }
+          
+           .content h2:hover + .hide{
+	  
+          display: block;
+          
+	  }
+          .almi
+          { 
+             margin-right: -30px;
+              height: 450px;
+              
+          }
+          .hide
+          {
+              position: absolute;
+              display: none;
+              font-size: 20px;
+              color: black;
+              top: 250px;
+              left:80px;
+              background-color: lightgrey;
+              width: 140px;
+             
+          }
+          .content h2
+          {
+              color: brown;
+              position: absolute;
+              top: 100px;
+              left: 110px;
+              font-size: 30px;
+          }
+          .sym
+          {
+              position: absolute;
+              width: 55px;
+              height: 50px;
+              top: 50px;
+              left: 120px;
+            
+          }
+          
+
